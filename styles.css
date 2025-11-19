@@ -53,38 +53,15 @@ body {
 @media (max-width: 62.5rem) {
   /* 1000px / 10px = 100 */
   /* 1000px / 16px = 62.5 */
-  .review-card {
-    padding: 15px;
-  }
-
-  .review-heading {
-    font-size: 30px;
-    margin-bottom: 15px;
-  }
-  .review-text {
-    font-size: 15px;
-    margin-bottom: 8px;
-  }
-  .review-person {
-    font-size: 14px;
+  html {
+    font-size: 50%;
   }
 }
 
 @media (max-width: 31.25rem) {
   /* 500px / 16px = 31.25 */
   .review-card {
-    padding: 10px;
-  }
-
-  .review-heading {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  .review-text {
-    font-size: 14px;
-    margin-bottom: 5px;
-  }
-  .review-person {
-    font-size: 12px;
+    font-size: 37.5%;
+    /* 16px x 37.5% = 6px */
   }
 }
