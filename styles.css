@@ -23,3 +23,19 @@ body {
   border: 1px solid darkgray;
   border-radius: 8px;
 }
+
+.review-heading {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.review-text {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.review-person {
+  font-size: 18px;
+  font-weight: 700;
+}
